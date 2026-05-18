@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Secrets — never commit
+.env
+.env.local
+*.pem
+hf_token*
+
+# Benchmark + profile outputs
+results_*.json
+comparison.md
+plots/
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+*.qdstrm
+trace_run.json
+ncu_warmup.json
+ncu_run.json
+
+# HuggingFace caches (in case anyone sets HF_HOME locally)
+.cache/
+hf_cache/
+huggingface/
+
+# Misc
+*.log
+nohup.out
